@@ -1,0 +1,28 @@
+html, body {
+    background-color: black;
+}
+
+.sitevendas-barra {
+    width: 1440px;
+    height: 97px;
+    background-color: #D0BAFF;
+    
+}
+
+.sitevendas-barra-top-letra {
+    padding: 14px;
+    display: flex;
+    text-align: center;
+}
+
+.sitevendas-barra-top-icon {
+    padding: 14px;
+    display: flex;
+}
+
+.sitevendas-barra-de-pesquisa {
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;;
+}
