@@ -1,11 +1,15 @@
 html, body {
-    background-color: black;
+    background-color: #D0BAFF;
+}
+
+.sitevendas-barra-top {
+    flex-direction: column;
 }
 
 .sitevendas-barra {
     width: 1440px;
     height: 97px;
-    background-color: #D0BAFF;
+    
     
 }
 
@@ -25,4 +29,8 @@ html, body {
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 10px;;
+}
+
+section {
+    background: #000000;
 }
