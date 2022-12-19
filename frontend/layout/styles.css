@@ -2,33 +2,10 @@ html, body {
     background-color: #D0BAFF;
 }
 
-.sitevendas-barra-top {
-    flex-direction: column;
-}
-
 .sitevendas-barra {
-    width: 1440px;
-    height: 97px;
-    
-    
-}
-
-.sitevendas-barra-top-letra {
-    padding: 14px;
-    display: flex;
+    padding: 2px;
     text-align: center;
-}
-
-.sitevendas-barra-top-icon {
-    padding: 14px;
-    display: flex;
-}
-
-.sitevendas-barra-de-pesquisa {
-    border-radius: 10px;
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    border-radius: 10px;;
+    
 }
 
 section {
