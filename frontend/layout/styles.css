@@ -3,10 +3,16 @@ html, body {
 }
 
 .sitevendas-barra {
-    padding: 2px;
+    padding: 10px;
     text-align: center;
     
 }
+
+.sitevendas-barra a {
+    padding: 10px;
+}
+
+
 
 section {
     background: #000000;
