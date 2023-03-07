@@ -1,1 +1,120 @@
 # site-de-doces
+
+- O site tera 7 paginas
+- Home
+- Chocolate
+- Bebidas
+- Festas
+- Sorvetes 
+- Cookie
+- Entrar
+
+- cores #3A4F7A, #FFC6D3, #FEA1BF, #E98EAD
+
+- a onde a header e footer vao estar em todas paginas
+- da Home ate a Cookie que vai mudar vai ser o titulo por enquanto por que no futuro vou colocar imagens e precos de acordo com api do banco
+- e a Entrar vai ter duas aba de preenchimento
+- uma para logar com a conta e a outra para registrar a conta caso o usuario nao tenha conta
+
+- planejar o formato do html usado no header
+- Header
+    - div principal
+        - ul
+            - li 
+                - div
+            - li
+                - div
+            - li
+                - div
+            - li
+                - div
+            - li
+                - div
+            - li
+                - div
+            - li
+    - div search 
+        - input:search
+- planejar a footer 
+- footer
+    - div
+        - ul
+            - li
+            - li
+    - div
+        - ul 
+            - li
+            - li
+    - div
+        - ul 
+            - li
+            - li
+- planejar o section
+    - div
+        - h1
+    - div content 
+        - ul primaria
+            - li
+                - ul
+                - li h2
+                - li img
+                - li preco
+                - li ul
+                    - li botao adicionar
+                    - li botao + 
+                    - li span quantidade
+                    - li botao -
+            - li
+                - ul
+                - li h2
+                - li img
+                - li preco
+                - li ul
+                    - li botao adicionar
+                    - li botao + 
+                    - li span quantidade
+                    - li botao -
+            - li
+                - ul
+                - li h2
+                - li img
+                - li preco
+                - li ul
+                    - li botao adicionar
+                    - li botao + 
+                    - li span quantidade
+                    - li botao -
+        - ul segundaria
+            - li
+                - ul
+                - li h2
+                - li img
+                - li preco
+                - li ul
+                    - li botao adicionar
+                    - li botao + 
+                    - li span quantidade
+                    - li botao -
+            - li
+                - ul
+                - li h2
+                - li img
+                - li preco
+                - li ul
+                    - li botao adicionar
+                    - li botao + 
+                    - li span quantidade
+                    - li botao -
+            - li
+                - ul
+                - li h2
+                - li img
+                - li preco
+                - li ul
+                    - li botao adicionar
+                    - li botao + 
+                    - li span quantidade
+                    - li botao -
+    - div bota ver mais
+        botao ver mais               
+            
