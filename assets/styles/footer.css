@@ -1,0 +1,93 @@
+@import url('reset.css');
+@import url('global.css');
+
+.container-footer{
+    height: 127px;
+    background-color: var(--azul-escuro);
+}
+
+.footer_menu {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.footer_menu li div {
+    margin-top: 20px;
+}
+
+.menu_missao {
+    padding-left: 16px;
+    padding-right: 31px;
+}
+
+.menu_missao p{
+    width: 244px;
+    height: 67px;
+    font-family: 'Judson';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFC6D3;
+}
+
+.menu_missao h1{
+    width: 202px;
+    height: 31px;
+    font-family: 'Judson';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFC6D3;
+}
+
+.menu_contato {
+    padding-right: 50px;
+    width: 181px;
+    height: 75px;
+}
+.menu_contato h1, .menu_contato p {
+    font-family: 'Judson';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFC6D3;
+}
+.menu_contato h2 {
+    font-family: 'Judson';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFC6D3;
+}
+
+.menu_contato p {
+    font-family: 'Judson';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFC6D3;
+}
+
+.menu_beneficios {
+    padding-left: 50px;
+}
+
+.menu_beneficios h1{    
+    font-family: 'Judson';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFC6D3; 
+}
+
+.menu_beneficios p{    
+    font-family: 'Judson';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFC6D3; 
+}
