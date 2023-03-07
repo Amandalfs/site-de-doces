@@ -1,6 +1,123 @@
 @import url('reset.css');
 @import url('global.css');
 
-section {
-    height: 700px;
+.container-home {
+    text-align: center;
+    align-items: center;
+}
+
+.home_primary {
+    display: inline-flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.home_segunda li img {
+    width: 316px;
+    height: 235px;
+    border: 3px solid #3A4F7A;
+    border-radius: 40px;
+}
+
+.home_segunda {
+    padding-right: 50px;
+}
+
+.home_segunda li h2 {
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    color: #3A4F7A;
+    margin-top: 35px;
+    float: left;
+    margin-left: 20px;
+}
+
+.home_terceira {
+    display: inline-flex;
+    flex-direction: row;
+    float: left;
+}
+
+.home_title {
+    text-align: center;
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 79px;
+    color: #3A4F7A;
+    margin-top: 35px;
+}
+
+.home_preco {
+    font-family: 'Judson';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 41px;
+    color: #3A4F7A;
+    padding-right: 60%;
+}
+
+.home_terceira_mais {
+    font-family: 'Judson';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    color: #3A4F7A;
+    line-height: 15%;
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+    background-color: var(--rosa);
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.home_terceira_menos {
+    font-family: 'Judson';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    color: #3A4F7A;
+    line-height: 15%;
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+    background-color: var(--rosa);
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+
+.home_terceira_menos:active, .home_terceira_adicionar:active, .home_terceira_mais:active {
+    border: white;
+}
+
+.home_terceira_adicionar {
+    width: 119px;
+    height: 44px;
+    background: #E98EAD;
+    border: 1px solid #3A4F7A;
+    border-radius: 50px;
+    font-family: 'Judson';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #3A4F7A;
+    margin-right: 70px;
+}
+
+.home_terceira span {
+    font-family: 'Judson';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 25px;
+    color: #3A4F7A;
 }

@@ -10,4 +10,5 @@
 body {
     font-family: 'Judson', serif;
     font-size: 16px;
+    background-color: var(--rosa-claro);
 }
