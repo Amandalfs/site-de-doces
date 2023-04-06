@@ -1,0 +1,73 @@
+.container-registrar {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    width: 767px;
+    height: 757px;
+    
+    margin: 150px auto;
+    padding: 50px 0;
+    gap: 30px;
+    
+
+    background: #FEA1BF;
+    border-radius: 30px;
+}
+
+.container-registrar div {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+input {
+    width: 393px;
+    height: 42px;
+
+    background: #FFC6D3;
+    border-radius: 50px;
+    border: none;
+}
+
+label {
+    width: 258px;
+    height: 28px;
+
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+
+    color: #3A4F7A;
+}
+
+select {
+    width: 393px;
+    height: 42px;
+
+    background: #FFC6D3;
+    border-radius: 50px;
+    border: none;
+}
+
+button {
+    width: 259px;
+    height: 60px;
+
+    background: #3A4F7A;
+    border: 2px solid #FFC6D3;
+    border-radius: 50px;
+
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 46px;
+
+    color: #FFC6D3;
+
+}
