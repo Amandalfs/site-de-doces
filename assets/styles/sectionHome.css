@@ -15,7 +15,6 @@
 .home_segunda li img {
     width: 316px;
     height: 235px;
-    border: 3px solid #3A4F7A;
     border-radius: 40px;
 }
 
@@ -29,7 +28,7 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 50px;
-    color: #3A4F7A;
+    color: var(--cor-primaria);
     margin-top: 35px;
     float: left;
     margin-left: 20px;
@@ -48,7 +47,7 @@
     font-weight: 400;
     font-size: 60px;
     line-height: 79px;
-    color: #3A4F7A;
+    color: var(--cor-primaria);
     margin-top: 35px;
 }
 
@@ -58,7 +57,7 @@
     font-weight: 400;
     font-size: 35px;
     line-height: 41px;
-    color: #3A4F7A;
+    color: var(--cor-segundaria);
     padding-right: 60%;
 }
 
@@ -67,15 +66,15 @@
     font-style: italic;
     font-weight: 400;
     font-size: 30px;
-    color: #3A4F7A;
+    color: var(--cor-segundaria);
     line-height: 15%;
     padding: 5px;
     height: 25px;
     width: 25px;
-    background-color: var(--rosa);
-    border: 1px solid black;
+    background-color: var(--cor-botao);
     border-radius: 50%;
     margin-right: 12px;
+    border: none;
 }
 
 .home_terceira_menos {
@@ -83,13 +82,13 @@
     font-style: italic;
     font-weight: 400;
     font-size: 30px;
-    color: #3A4F7A;
+    color:var(--cor-segundaria);
     line-height: 15%;
     padding: 5px;
     height: 25px;
     width: 25px;
-    background-color: var(--rosa);
-    border: 1px solid black;
+    background-color: var(--cor-botao);
+    border: none;
     border-radius: 50%;
     margin-left: 12px;
 }
@@ -101,15 +100,15 @@
 .home_terceira_adicionar {
     width: 119px;
     height: 44px;
-    background: #E98EAD;
-    border: 1px solid #3A4F7A;
+    background: var(--cor-botao);
+    border: none;
     border-radius: 50px;
     font-family: 'Judson';
     font-style: italic;
     font-weight: 400;
     font-size: 25px;
     line-height: 29px;
-    color: #3A4F7A;
+    color: var(--cor-segundaria);
     margin-right: 70px;
 }
 
@@ -119,5 +118,6 @@
     font-weight: 400;
     font-size: 35px;
     line-height: 25px;
-    color: #3A4F7A;
+    color: var(--cor-primaria);
 }
+

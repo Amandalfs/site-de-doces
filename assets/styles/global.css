@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root{
-    --azul-escuro: #3A4F7A;
-    --rosa-claro: #FFC6D3;
-    --rosa: #FEA1BF;
-    --rosa-medio: #E98EAD;
+    --cor-fundo: #FDF4F5;
+    --cor-fundo-segundaria: #E8A0BF;
+    --cor-primaria: #39B5E0;
+    --cor-segundaria: #C0DBEA;
+    --cor-botao: #BA90C6;
 }
 
 body {
     font-family: 'Judson', serif;
     font-size: 16px;
-    background-color: var(--rosa-claro);
+    background-color: var(--cor-fundo);
 }
+
